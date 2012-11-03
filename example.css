@@ -1,0 +1,352 @@
+body {background-color: black;
+	background-image: url("curtains2.jpg");
+	background-position: absolute;
+	background-repeat: no-repeat;
+}
+
+#container {
+	width:800px;
+	height:1275px;
+	border: 2px solid none;
+	margin-left:-100px;
+	top: 15%;
+	left: 28%;
+	display: block;
+	position: absolute;
+	background-color:ffffcc;
+	box-shadow:inset 0 0 15px #000000;
+}
+
+
+#main {
+	border: 2px red solid;
+	background:black;
+}
+#main li {
+	display:inline-block;
+	list-style: none;
+	padding-left: 40px;
+	padding-top: -20px;
+	font: bold 14px Tahoma
+}
+/*Link style aanpassen*/
+		a:link{color:Red;
+			text-decoration:none;}
+		a:visited{color:Red;}
+		a:hover{color:White;
+				}
+}
+
+/*borders etc aanpassen in hoofdmenu*/
+#home{
+
+}
+#actueel{
+
+}
+#films3{
+
+}
+#filmagenda {
+
+}
+#Contact {
+
+}
+
+#hierfilms{
+	text-align:center;
+	border: 2px solid red;
+	margin: 10px;
+	height:300px
+}
+
+#bestellen img
+{	text-align:center;
+	border: 2px solid none;
+	position: center;
+	height:80px;
+	width: 700px;
+	margin-left: 50px
+}
+
+#social_media1
+{	
+	border: 2px solid green;
+	position: absolute;
+	width:90px;
+	height:30px;
+	margin-left:600px;
+	margin-top: 560px;
+}
+
+#social_media2
+{	
+	border: 2px solid green;
+	position: absolute;
+	width:90px;
+	height:30px;
+	margin-left: 600px;
+	margin-top: 660px;
+}
+
+
+#footer
+{	color:white;
+	margin-left:525px;
+	margin-top:1300px;
+
+}
+#Reviews{
+	text-align:left;
+	border: 2px solid none;
+	background:;
+	margin-top: 0px;
+	margin-right: 50px;
+	height: 440px;
+	width: 300px;
+	float:right;
+}
+
+#film1{
+	text-align:center;
+	border: 2px solid red;
+	margin: 10px;
+	height: 100px;
+	width: 500px;
+}
+
+#top10 {
+	text-align:center;
+	border: 3px solid none;
+	margin-left:10px;
+	margin-bottom:134px;
+	height: 220px;
+	width:  365px;
+	float:right;
+	position: absolute;
+	bottom:150px;
+	
+}
+
+}
+
+table.hovertable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.hovertable th {
+	background-color:#c3dde0;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.hovertable tr {
+	background-color:#d4e3e5;
+}
+table.hovertable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+
+}
+#box{
+	text-align:center;
+	border: 2px solid red;
+	margin-left:553px;
+	margin-bottom: 55px;
+	height: 260px;
+	width: 220px;
+	float:right;
+	position: absolute;
+	bottom: 500px;
+	left: 12px;
+	
+}
+#plaatjediv
+{
+ margin-top: -50px;
+ margin-left: 470px;
+ position: relative;
+ }
+
+ 
+
+
+#contactpage{
+	border:2px solid black;
+}
+
+#contactinfo{
+			margin-left: 10px;
+			width: 200px;
+			height: 235px;}
+
+#googlemaps{
+margin:10px;}			
+
+#vragen_opmerkingen{
+	margin:10px;
+}
+#p1{
+	margin:10px;
+}
+#vragen_naam{
+	margin:14px;
+}
+#vragen_mail{
+	margin:10px;
+}
+#p2{
+	margin:10px;
+}
+#submit{
+	margin:10px;
+	margin-left:61px;
+}
+
+#logo img{max-height:118px;
+	max-width:200px;
+	}
+#logo{margin-left:580px;
+	margin-top:5px;}
+	
+#selector {
+	margin-left:61px;
+	}
+
+span.dropt {border-bottom: thin dotted;}
+span.dropt:hover {text-decoration: none; z-index: 6; }
+span.dropt span {position: absolute; color:red; left: -9999px;
+  margin: 20px 0 0 0px; padding: 3px 3px 3px 3px;
+  border-style:solid; border-color:Red; border-width:2px; z-index: 6;}
+span.dropt:hover span {left: 2%;} 
+span.dropt span {position: absolute; left: -9999px;
+  margin: 4px 0 0 0px; padding: 3px 3px 3px 3px; 
+  border-style:solid; border-color:Red; border-width:2px; background:black;}
+span.dropt:hover span {margin: 20px 0 0 170px; z-index:6;} 
+#dredd {
+margin-top: 30px;
+margin-left: 30px;
+}
+
+#kijkwijzerdredd {
+	margin-left:250px;
+	margin-top:-270px;
+}
+#kijkwijzerlawless {
+	margin-left:250px;
+	margin-top:-290px;
+}
+#kijkwijzerlaythefavorite {
+	margin-left:250px;
+	margin-top:-270px;
+}
+#kijkwijzertaken2 {
+	margin-left:250px;
+	margin-top:-270px;
+}
+#kijkwijzerpitchperfect {
+	margin-left:250px;
+	margin-top:-270px;
+}
+#kijkwijzerthebay {
+	margin-left:250px;
+	margin-top:-290px;
+}
+#filminfobait {
+	margin-top: 150px;
+}
+
+#filminfodredd {
+	margin-top: 100px;
+}
+
+#filminfolawless {
+	margin-top: 100px;
+}
+#filminfotaken2 {
+	margin-top: 130px;
+}
+#filminfopitchperfect {
+	margin-top: 100px;
+}
+#filminfothebay {
+	margin-top: 100px;
+}
+
+#release11okt {
+	margin-left: 40px;
+	margin-top:50px;
+	margin-right:40px;
+}
+#release15nov {
+	margin-left: 40px;
+	margin-right:40px;
+}
+#release22nov {
+	margin-left: 40px;
+	margin-right:40px;
+}
+
+#tekstnidb1 {
+	margin-top: 50px;
+	margin-left:110px;
+	font-family:"Comic Sans MS"; font-weight:bold; font-size:25px;
+		}
+
+#filmplaatjes1 {
+	margin-left: 14px;
+	margin-right: 14px;
+	
+}
+
+#button {
+	float:right;
+	margin-right:30px;
+		
+}
+#verwachtplaatjes {
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+#tekstnidb {
+	margin-left:280px;
+	margin-right:30px;
+	 font-size:25px;
+}
+#tekstnidbb {
+	margin-left:330px;
+	margin-right:30px;
+	 font-size:25px;
+}
+#tekstnidbbb {
+	margin-left:336px;
+	margin-right:30px;
+	 font-size:25px;
+}
+
+#res {
+		border: 0px solid red;
+		width: 450px;
+		margin: 15px;
+		text-align:center;
+		}
+	span.zalen {border-bottom: thin dotted;}
+	span.zalen:hover {text-decoration: none; z-index: 6; }
+	span.zalen span {position: absolute; color:red; left: -9999px;
+  margin: 20px 0 0 0px; padding: 3px 3px 3px 3px;
+  border-style:solid; border-color:Red; border-width:2px; z-index: 6;}
+	span.zalen:hover span {left: -9%; top:49%;} 
+	span.zalen span {position: absolute; left: -9999px;
+  margin: 4px 0 0 0px; padding: 3px 3px 3px 3px; 
+  border-style:solid; border-color:Red; border-width:2px; background:black;}
+	span.zalen:hover span {margin: 20px 0 0 170px; z-index:6;} 

@@ -1,0 +1,9 @@
+#ironman img{
+border: 2px solid red;
+margin-left:395px;
+margin-top:50px;
+}
+
+<div id="ironman"><a href="http://www.imdb.com/title/tt1074638/"><img src="ironman3.jpg" width="402" height="800"></a></div>
+<div id="paranormal"><a href="http://www.imdb.com/title/tt1074638/"><img src="paranormal.jpg" width="800" height="325"></a></div>
+</div>

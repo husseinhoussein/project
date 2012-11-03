@@ -1,0 +1,26 @@
+#container_contact{
+	width:800px;
+	height:1400px;
+	border: 1px solid red;
+	top: 15%;
+	left: 28%;
+	display: block;
+	position: absolute;
+	background-color:#FAFAFA;
+}
+
+#container_films {
+	width:800px;
+	height:1400px;
+	border: 1px solid red;
+	top: 15%;
+	left: 28%;
+	display: block;
+	position: absolute;
+	background-color:#FAFAFA;
+}
+
+#button{
+	margin:15px;
+	margin-left:61px;
+}

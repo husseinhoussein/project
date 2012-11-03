@@ -1,0 +1,254 @@
+<! doctype html>
+
+<html>
+<head>
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="example.css">
+<script src="example.js"></script>
+<title>Films</title>
+
+
+
+	<script>
+	  (function() {
+    var cx = '002624762940453541738:uundfsj4dc0';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+  </script>
+	<script>
+var image1=new Image()
+image1.src="Possession.jpg"
+var image2=new Image()
+image2.src="Hobbit.jpg"
+var image3=new Image()
+image3.src="exp.jpg"
+var image4=new Image()
+image4.src="Logo.jpg"
+</script>
+
+</head>
+
+
+
+<body >
+
+<div id="container">
+<font face="Tahoma"/>
+	<nav id="main">
+<li><div id="home"><h3><a href="home.html"><img src="home.jpg"onmouseover="this.src='home2.jpg'"onmouseout="this.src='home.jpg'"width=150" height="35"> </a> </h3></div></li>
+		<li><div id="films2"><h3> <a href="films.html"><img src="films.jpg"onmouseover="this.src='films2.jpg'"onmouseout="this.src='films.jpg'"width=150" height="35"> </a>   </h3></div></li>
+		<li><div id="reserveren"><h3> <a href="reserveren.html"><img src="reserveren.jpg"onmouseover="this.src='reserveren2.jpg'"onmouseout="this.src='reserveren.jpg'"width=150" height="35"> </a> </h3></div></li>
+		<li><div id="contact"><h3> <a href="contact.html"><img src="contact.jpg"onmouseover="this.src='contact2.jpg'"onmouseout="this.src='contact.jpg'"width=150" height="35"> </a> </h3></div></li>
+	</nav>
+
+     
+   
+   <title>Films</title>
+<style type="text/css">
+/*<![CDATA[*/
+
+#sample {
+position:relative;width:796px;height:190px;border:solid red 2px; 
+}
+
+.mask1 {
+width:2242px;
+}
+.mask1 IMG {
+width:264px;height:190px;
+}
+
+/*]]>*/
+</style></head>
+
+<body>
+<div id="sample">
+<div class="mask1">
+<img src="madagascar_3_2012_movie-wide.jpg" alt="Photo" />
+<img src="ice_age_4_continental_drift_2012-wide.jpg" alt="Photo" />
+<img src="The-Bourne-Legacy-banner.jpg" alt="Photo" />
+
+<img src="expendables2.jpg" alt="Photo" />
+<img src="Possession.jpg" alt="Photo" />
+<img src="Savages3.jpg" alt="Photo" />
+<img src="ted2.jpg" alt="Photo" />
+<img src="taken21.jpg" alt="Photo" />
+</div>
+</div>
+
+
+<br/>
+
+
+
+	<h3>Filmpje heeft altijd een uitgebreid assortiment aan films beschikbaar voor jou. Bekijk hier de nieuwste, beste en/of vetste films die in de bios draaien. Neem ook gerust een kijkje bij de films die nog komen gaan! </h2>
+       
+  <br/>  
+    <hr>
+	<div id="tekstnidb"> 
+    <p><b><a style="color:black"; href="nidb.html">Nu in de bioscoop</a></b></p> 
+    </div>
+    <hr>
+    <div id="tekstnidbb">
+    <p><b><a style="color:black"; href="verwacht.html">Verwacht</a></b></p> 
+    </div>
+    <hr>
+    <div id="tekstnidbbb">
+	<p><b><a style="color:black"; href="specials.html">Specials</a></b></p> 
+    </div>
+    <hr>
+    
+
+  <br/><br/><br/>
+  
+<img src="Possession.jpg" name="slide" width=550 height=300 style="margin-left: 15%; border: 2px solid red">
+	<script>
+var step=1
+function slideit(){
+
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<4)
+step++
+else
+step=1
+
+setTimeout("slideit()",2500)
+}
+slideit()
+</script>  
+
+
+
+<script type="text/javascript">
+
+function zxcSlider(o){
+var oop=this,obj=document.getElementById(o.ID),slide=obj.getElementsByTagName('DIV')[0];
+slide.style.width='100000px';
+var clds=slide.getElementsByTagName('*'),lst=clds[clds.length-1],sz=lst.offsetLeft+lst.offsetWidth,nu=Math.ceil(obj.offsetWidth/sz)+1,slider=document.createElement('DIV'),z0=0,z1=0,ud=o.Direction,ms=o.AnimationDuration,events=o. AddEvents,auto=o.AutoStart;
+obj.appendChild(slider);
+obj.style.overflow='hidden';
+slider.style.position='absolute';
+slider.style.left='0px';
+slider.style.top='0px';
+slide.style.position='absolute';
+slide.style.top='0px';
+for (;z0<nu;z0++){
+slide=z0>0?slide.cloneNode(true):slide;
+slide.style.left=z0*sz+'px';
+slider.appendChild(slide);
+}
+clds=slide.childNodes;
+this.ary=[];
+for (;z1<clds.length;z1++){
+if (clds[z1].nodeType==1){
+this.ary.push(-clds[z1].offsetLeft);
+}
+}
+this.ary.push(this.ary[this.ary.length-1]+this.ary[1]);
+if (typeof(events)!='boolean'||events){
+obj.onmouseover=function(){ oop.Pause(); }
+obj.onmouseout=function(){ oop.Auto(); }
+}
+this.slider=slider;
+this.cnt=0;
+this.fr=0;
+this.to=0;
+this.run=true;
+this.ud=isFinite(ud)&&ud>0?1:-1;
+this.mS=isFinite(ms)&&ms<0?ms:500;
+this.hold=isFinite(o.Hold)?o.Hold:1000;
+if (typeof(auto)!='boolean'||auto){
+this.dly=setTimeout(function(){ oop.Auto(); },this.hold);
+}
+
+}
+
+zxcSlider.prototype={
+
+Next:function(ud,run){
+var ud=isFinite(ud)?ud>0?1:-1:this.ud,cnt=this.cnt,lgth=this.ary.length-1,nxt;
+if ((ud<0&&cnt==lgth)||(ud>0&&cnt==0)){
+cnt=ud<0?0:lgth;
+}
+nxt=cnt+(ud<0?1:-1);
+this.slide(cnt,nxt,run,ud);
+},
+
+GoTo:function(nxt){
+var cnt=this.cnt;
+if (cnt==this.ary.length-1){
+cnt=0;
+}
+this.slide(cnt,nxt,false);
+},
+
+slide:function(cnt,nxt,run,ud){
+if (this.fr==this.to&&nxt!=cnt&&isFinite(this.ary[nxt])){
+clearTimeout(this.dly);
+this.fr=this.ary[cnt];
+this.to=this.ary[nxt];
+this.cnt=nxt;
+this.run=run;
+this.ud=ud||this.ud;
+this.srttime=new Date().getTime();
+this.animate();
+document.cookie=this.nme+nxt+';expires='+(new Date(new Date().getTime()+this.days*86400000).toGMTString())+';path=/';
+}
+},
+
+Auto:function(){
+if (this.fr==this.to){
+var oop=this;
+this.dly=setTimeout(function(){ oop.Next(oop.ud,true); },500);
+}
+},
+
+Pause:function(){
+clearTimeout(this.dly);
+this.run=false;
+},
+
+animate:function(){
+var oop=this,ms=new Date().getTime()-this.srttime;
+this.slider.style.left=(this.to-this.fr)/this.mS*ms+this.fr+'px';
+if (ms<this.mS){
+setTimeout(function(){oop.animate(); },10);
+}
+else {
+this.fr=this.to;
+this.slider.style.left=this.to+'px';
+if (this.run){
+this.dly=setTimeout(function(){ oop.Next(oop.ud,true); },this.hold);
+}
+}
+}
+
+}
+
+new zxcSlider({
+ID:'sample', // the unique ID name of the parent node. (string)
+Direction:-1, //(optional) rotation direction, < 0 = anti-clockwise, > 0 = clockwise. (number, default = -1);
+AnimationDuration:500, //(optional) the animation duration in milli seconds. (number, default = 500);
+Hold:2000, //(optional) the 'hold' delay between rotation in milli seconds. (number, default = 1000);
+AutoStart:true, //(optional) true = start auto rotation on initialization. (boolean, default = true);
+AddEvents:true //(optional) true = mouseover to pause, mouseout to start auto rotation. (boolean, default = true);
+});
+
+/*]]>*/
+</script>
+
+
+
+
+    
+</div>
+<div id="logo"><a href="Home.html"><img src="images/Logo.jpg"/></a></div>
+<div id="footer"><a href="contact.html">Contact</a> | Klantenservice | Disclaimer</div>
+</body>
+</html>

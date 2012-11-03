@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery Simple Fade SlideShow by Pascal Bajorat</title>
+<link rel="stylesheet" type="text/css" href="slideshowfilmpje.css" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="fadeSlideShow.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery('#slideshow').fadeSlideShow();
+});
+</script>
+</head>
+
+<body>
+<div id="top">
+	<h1>Simple Fade SlideShow <span>v.2.0 by <a href="http://www.pascal-bajorat.com" target="_blank" title="Visit Pascal Bajorat's Website">Pascal Bajorat</a></span></h1>
+</div>
+<div id="slideshowWrapper">
+    <ul id="slideshow">
+        <li><img src="images/expendables2.jpg" width="640" height="480" border="0" alt="" /></li> <!-- This is the last image in the slideshow -->
+        <li><img src="images/ice_age_4_continental_drift_2012-wide.jpg" width="640" height="480" border="0" alt="" /></li>
+        <li><img src="images/taken21.jpg" width="640" height="480" border="0" alt="" /></li>
+        <li><img src="images/madagascar_3_2012_movie-wide.jpg" width="640" height="480" border="0" alt="" /></li> <!-- This is the first image in the slideshow -->
+    </ul><br clear="all" />
+</div>
+
+
+</body>
+</html>

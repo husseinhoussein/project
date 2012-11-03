@@ -1,0 +1,161 @@
+<! doctype html>
+
+<html>
+<head>
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="slideshowfilmspagina/slideshowfilmpje.css" />
+<script type="text/javascript" src="slideshowfilmspagina/jquery.js"></script>
+<script type="text/javascript" src="slideshowfilmspagina/fadeSlideShow.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery('#slideshow').fadeSlideShow();
+});
+</script>
+
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="example.css">
+	<script src="example.js"></script>
+	<script src="example.js"></script>
+
+</head>
+<body >
+<title>Home Filmpje</title>
+<div id="container">
+<font face="Tahoma"/>
+	<nav id="main">
+		<li><div id="home"><h3><a href="home.html"><img src="home.jpg"onmouseover="this.src='home2.jpg'"onmouseout="this.src='home.jpg'"width=150" height="35"> </a> </h3></div></li>
+		<li><div id="films2"><h3> <a href="films.html"><img src="films.jpg"onmouseover="this.src='films2.jpg'"onmouseout="this.src='films.jpg'"width=150" height="35"> </a>   </h3></div></li>
+		<li><div id="reserveren"><h3> <a href="reserveren.html"><img src="reserveren.jpg"onmouseover="this.src='reserveren2.jpg'"onmouseout="this.src='reserveren.jpg'"width=150" height="35"> </a> </h3></div></li>
+		<li><div id="contact"><h3> <a href="contact.html"><img src="contact.jpg"onmouseover="this.src='contact2.jpg'"onmouseout="this.src='contact.jpg'"width=150" height="35"> </a> </h3></div></li>
+	</nav>
+	<br/>
+	<br/>
+	<div id="slideshowWrapper">
+    <ul id="slideshow">
+        <li><img src="slideshowfilmspagina/images/expendables2.jpg" width="640" height="480" border="0" alt="" /></li> <!-- This is the last image in the slideshow -->
+        <li><img src="slideshowfilmspagina/images/ice_age_4_continental_drift_2012-wide.jpg" width="640" height="480" border="0" alt="" /></li>
+        <li><img src="slideshowfilmspagina/images/taken21.jpg" width="640" height="480" border="0" alt="" /></li>
+        <li><img src="slideshowfilmspagina/images/madagascar_3_2012_movie-wide.jpg" width="640" height="480" border="0" alt="" /></li>
+        <li><img src="slideshowfilmspagina/images/ted2.jpg" width="640" height="480" border="0" alt="" /></li>
+        <li><img src="slideshowfilmspagina/images/logo.jpg" width="640" height="480" border="0" alt="" /></li> <!-- This is the first image in the slideshow -->
+    </ul><br clear="all" />
+</div>
+	<br/>
+	<div id="bestellen">
+	<h3><a href="reserveren.html"><img src="ReserveerNu.jpg"onmouseover="this.src='ReserveerNu2.jpg'"onmouseout="this.src='ReserveerNu.jpg'"width=150" height="35"> </a> </h3>
+	</div>
+	<br/>
+	<br/>
+	
+	<div id="Reviews">
+<img src="images/review1en2.jpg" name="slide" width="300" height="400">
+<script>
+var image1=new Image()
+image1.src="images/review1en2.jpg"
+var image2=new Image()
+image2.src="images/review3en4.jpg"
+
+var step=1
+function slideit(){
+document.images.slide.src=eval("image"+step+".src")
+if(step<2)
+step++
+else
+step=1
+setTimeout("slideit()",12000)
+}
+slideit()
+</script>
+<font size="-1">Meer recensies:<a href="http://www.filmtotaal.nl/recensies.php" title="Filmtotaal.nl">Filmtotaal</a>
+	</div>
+<div id="top10"><table class="hovertable">
+<tr>
+	<tr><th colspan="7" rowspan="1">Top10</th></tr>
+</tr>
+<a><tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>1</td><td rowspan="1"><span class="dropt"  title="Bachelorette"><b><font size="2">Bachelorette</font></b>
+		<span><img src="images/Bachelorette.jpg"/><br/>
+			Genre: Komedie <img src="images/kijkwijzerbachelorette.png"/>
+		</span>
+	</span><br /></td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>2</td><td><span class="dropt" title="Ted"><a href="nidbted.html"><b><font size="2">Ted</font></b></a>
+		<span><img src="images/Ted2.jpg"/><br/>
+			Genre: Komedie  <img src="images/kijkwijzerted.png"/>
+		</span>
+	</span><br /></td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>3</td><td><span class="dropt" title="Mees Kees"><b><font size="2">Mees Kees</font></b>
+		<span><img src="images/meeskees.jpg"/><br/>
+			Genre: NL, Komedie<br/> <img src="images/kijkwijzermeeskees.png"/>
+		</span>
+	</span><br /></td></td>
+</tr>
+
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>4</td><td><span class="dropt" title="Savages"><b><font color="red" font size="2">Savages</font></b>
+		<span><img src="images/savages.jpg"/><br/>
+			Genre: Actie <img src="images/kijkwijzersavages.png"/>
+		</span>
+	</span><br /></td></td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>5</td><td><span class="dropt" title="Hope Springs"><b><font size="2">Hope Springs</font></b>
+		<span><img src="images/hopesprings.jpg"/><br/>
+			Genre: Komedie, Drama<br/> <img src="images/kijkwijzerhopesprings.png"/>
+		</span>
+	</span><br /></td></td>
+</tr>
+
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>6</td><td><span class="dropt" title="The Possession"><b><font size="2">The Possession</font></b>
+		<span><img src="images/possession2.jpg"/><br/>
+			Genre: Horror<br/> <img src="images/kijkwijzertheposesion.png"/>
+		</span>
+	</span><br /></td></td>
+</tr>
+
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>7</td><td><span class="dropt" title="The Bourne Legacy"><b><font size="2">The Bourne Legacy</font></b>
+		<span><img src="images/bournelegacyp4.jpg"/><br/>
+			Genre: Actie<br/> <img src="images/kijkwijzerthebournelegacy.png"/>
+		</span>
+	</span><br /></td></td>
+</tr>
+
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>8</td><td><span class="dropt" title="De verbouwing"><b><font size="2">De Verbouwing</font></b>
+		<span><img src="nidbdeverbouwing.html"/><br/>
+			Genre: NL, Drama<br/> <img src="images/deverbouwing2.jpg"/>
+		</span>
+	</span><br /></td></td>
+</tr>
+
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>9</td><td><span class="dropt" title="Madagascar 3"><b><font size="2">Madagascar 3: Op avontuur in Europa 3D </font></b>
+		<span><img src="images/madagascar3.jpg"/><br/>
+			Genre: NL, Animatie<br/> <img src="images/kijkwijzermadagascar3.png"/>
+		</span>
+	</span><br /></td></td>
+</tr>
+
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>10</td><td><span class="dropt" title="Ice Age 4"><b><font size="2">Ice Age 4: Continental Drift (NL) </font></b>
+		<span><img src="images/iceage4.jpg"/><br/>
+			Genre: NL, Animatie<br/> <img src="images/kijkwijzericeage4.png"/>
+		</span>
+	</span><br /></td></td>
+</tr>
+
+</table></div><br /><iframe style="margin-top:650px" src="https://www.facebook.com/plugins/like.php?href=http://www.facebook.com/pages/Hogeschool-Rotterdam/113861322031597"scrolling="no" frameborder="0"
+        style="border:none; width:450px; height:80px"></iframe>
+	
+</div>
+<div id="logo"><a href="Home.html"><img src="images/Logo.jpg"/></a></div>
+<div id="footer"><a href="contact.html">Contact</a> | <a>Klantenservice</a> | <a>Disclaimer</div></a>
+</body>
+</html>

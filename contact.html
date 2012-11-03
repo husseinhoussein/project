@@ -1,0 +1,90 @@
+<! doctype html>
+
+<html>
+<head>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="example.css">
+	<script src="example.js"></script>
+</head>
+<body >
+<title>Contact</title>
+<div id="container">
+<font face="Tahoma"/>
+
+	<nav id="main">
+	<li><div id="home"><h3><a href="home.html"><img src="home.jpg"onmouseover="this.src='home2.jpg'"onmouseout="this.src='home.jpg'"width=150" height="35"> </a> </h3></div></li>
+		<li><div id="films2"><h3> <a href="films.html"><img src="films.jpg"onmouseover="this.src='films2.jpg'"onmouseout="this.src='films.jpg'"width=150" height="35"> </a>   </h3></div></li>
+		<li><div id="reserveren"><h3> <a href="reserveren.html"><img src="reserveren.jpg"onmouseover="this.src='reserveren2.jpg'"onmouseout="this.src='reserveren.jpg'"width=150" height="35"> </a> </h3></div></li>
+		<li><div id="contact"><h3> <a href="contact.html"><img src="contact.jpg"onmouseover="this.src='contact2.jpg'"onmouseout="this.src='contact.jpg'"width=150" height="35"> </a> </h3></div></li>
+	</nav>
+	<br/>
+	<br/>
+	<div id="contactpage"><strong>Contact</strong></div>
+	<br/>
+		<div style="margin-left:370px"><b>Filmpje op de kaart:<b/></div>
+	<br/>	
+	<div style="float:left" id="contactinfo">
+	<b>E-mail:</b></br>Filmpje@filmpje.nl<br/></br>
+	<b>Telefoonnummer:</b><br/> 010-36741334 </br></br>
+	<b>Fax:</b> </br>010-36741335<br/></br>
+	<b>Adres:</b><br/> 	West-Kruiskade 26 </br>
+					3014 AS Rotterdam
+					<br />
+					<br />
+					</br>
+					</br>
+					</br>
+					</br>
+					
+	</div>
+	<br />
+	</br>
+	<div id="googlemaps"><iframe style="display:block; float:right; margin-top:-50px; margin-right:50px" width="525" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=West-Kruiskade+26,+3014+AS+in+Rotterdam&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=39.371738,86.572266&amp;ie=UTF8&amp;hq=West-Kruiskade+26,+3014+AS&amp;hnear=Rotterdam,+Zuid-Holland,+Nederland&amp;ll=51.920433,4.469703&amp;spn=0.008323,0.026561&amp;t=m&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=nl&amp;geocode=&amp;q=West-Kruiskade+26,+3014+AS+in+Rotterdam&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=39.371738,86.572266&amp;ie=UTF8&amp;hq=West-Kruiskade+26,+3014+AS&amp;hnear=Rotterdam,+Zuid-Holland,+Nederland&amp;ll=51.920433,4.469703&amp;spn=0.008323,0.026561&amp;t=m" style="margin-bottom:250px; float:right; margin-right: 250px; color:#0000FF;text-align:center">Grotere kaart weergeven</a></small></div>
+
+	</br>
+	</br>
+
+<script>
+function sendMail() {
+    var link = "mailto:houssein.hussein@gmail.com"
+             + "&subject=" + escape("This is my subject")
+             + "&body=" + escape(document.getElementById('myText').value)
+    ;
+
+    window.location.href = link;
+}
+</script>
+	</br>
+	</br>
+	</br>
+	<div style="margin-top:350px">
+	<h2 id="vragen_opmerkingen">Vragen of opmerkingen?</h2>
+	<p id="p1">Heeft u een vraag of opmerking, dan kunt u het hier plaatsen.</p><br/>
+	<form id='contactus' method='post'>
+<fieldset>
+<legend>Contact us</legend>
+<input type='hidden' name='submitted' id='submitted' value='1'/>
+    <label for='name' >Naam*: </label><br/>
+    <input type='text' name='name' id='name'  maxlength="50" /><br/>
+    <label for='email' >Email Addres*:</label><br/>
+    <input type='text' name='email' id='email' maxlength="50" /><br/>
+    <label for='query_type' >Soort:</label><br/>
+    <select name='query_type'>
+        <option>Vraag</option>
+        <option>Klacht</option>
+        <option>Tip</option>
+        <option>Overig</option>
+    </select><br/>
+    <label for='message' >Message:</label><br/>
+    <textarea rows="10" cols="50" name='message' id='message'> </textarea>
+    <input type='submit' name='Submit' value='Submit' />
+    <div class='container'>
+    
+    </fieldset>
+</form>
+	</div>
+</div>
+<div id="logo"><a href="Home.html"><img src="images/Logo.jpg"/></a></div>
+<div id="footer"><a href="contact.html">Contact</a> | Klantenservice | Disclaimer</div>
+</body>
+</html>
